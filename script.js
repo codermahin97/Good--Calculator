@@ -28,6 +28,11 @@ function calculate() {
     }
 }
 
+function deleteChar() {
+    let display = document.getElementById('display');
+    display.value = display.value.slice(0, -1);
+}
+
 function cleardisplay() {
     document.querySelector('#display').value = '';
 }
