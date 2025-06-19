@@ -10,26 +10,27 @@
     <div class="calculator">
         <input type="text" id="display" readonly>
         <div class="button">
-            <button class="keys" id="operator" onclick="display('+')">+</button> 
+            <button class="keys" id="operator" onclick="deleteChar('')">del</button> 
             <button class="keys" onclick="display('9')">9</button>         
             <button class="keys" onclick="display('8')">8</button>
             <button class="keys" onclick="display('7')">7</button>
-            
-            <button class="keys" id="operator" onclick="display('-')">-</button>
+
+            <button class="keys" id="operator" onclick="display('+')">+</button> 
             <button class="keys" onclick="display('6')">6</button>
             <button class="keys" onclick="display('5')">5</button>
             <button class="keys" onclick="display('4')">4</button>
             
-            <button class="keys" id="operator" onclick="display('*')">*</button>
+            <button class="keys" id="operator" onclick="display('-')">-</button>
             <button class="keys" onclick="display('3')">3</button>
             <button class="keys" onclick="display('2')">2</button>
             <button class="keys" onclick="display('1')">1</button>
 
-            <button class="keys" id="operator" onclick="display('/')">/</button>
+            <button class="keys" id="operator" onclick="display('*')">*</button>
             <button class="keys" onclick="display('0')">0</button>
             <button class="keys" onclick="display('.')">.</button>
             
             <button class="keys" id="operator" onclick="cleardisplay()">C</button>
+            <button class="keys" id="operator" onclick="display('/')">/</button>
             <button class="keys" id="operator" onclick="display('(')">(</button>
             <button class="keys" id="operator" onclick="display(')')">)</button>
             <button class="keys" id="operator" onclick="calculate()">=</button>
